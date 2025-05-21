@@ -31,6 +31,6 @@ public class WebpageTest {
     @AfterTest
     public void closeBrowser() throws InterruptedException {
         Thread.sleep(1000);
-       //driver.quit();
+       driver.quit();
     }
 }
